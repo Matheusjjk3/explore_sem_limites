@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Mulish:wght@600;700;900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="page">
+      <header>
+        <img
+          id="imgface"
+          src="./img/astro.png"
+          alt="Astronauta saindo da parte de cima da telas"
+        />
+
+        <h1 class="title">Explore sem limites</h1>
+
+        <p class="sub">Porque o aprendizado é contínuo</p>
+
+        <img
+          class="arrow"
+          src="./img/arrow.svg"
+          alt="Seta apontando para baixo"
+        />
+      </header>
+
+      <main>
+        <div class="card" id="cardstart">
+          <img class="lua" src="./img/moon_yellow.png" alt="Lua amarela" />
+
+          <h2 class="topics">Não pare nunca</h2>
+          <p class="text">
+            Se você deseja ter sucesso nos estudos, é fundamental que você adote
+            uma mentalidade de "não pare nunca". Estudar de forma consistente e
+            contínua é a chave para o progresso e a conquista de seus objetivos.
+          </p>
+        </div>
+
+        <div class="card">
+          <img class="lua" src="./img/moon_blue.png" alt="Lua azul" />
+
+          <h2 class="topics">Só volta</h2>
+          <p class="text">
+            Se você parou ou perdeu o ritmo em alguma atividade ou projeto,
+            saiba que nunca é tarde para recomeçar. Às vezes, as circunstâncias
+            podem mudar, ou podemos nos sentir desmotivados ou sobrecarregados.
+          </p>
+        </div>
+
+        <div class="card" id="cardend">
+          <img class="lua" src="./img/moon_pink.png" alt="Lua rosa" />
+
+          <h2 class="topics">Siga seu ritmo</h2>
+          <p class="text">
+            Avançar pouco a pouco mantém progresso constante em objetivos,
+            evitando parar ou desistir. Mesmo pequenos passos nos aproximam do
+            destino e motivam a continuidade. Não subestime o poder de cada ação
+            rumo ao objetivo final.
+          </p>
+        </div>
+      </main>
+
+      <aside>
+        <div class="form">
+          <div class="bloco">
+            <h1 class="titleform">Entre em contato</h1>
+          </div>
+
+          <div class="container-wrapper">
+            <div class="container">
+              <img class="imgperson" src="./img/person.svg" alt="" />
+              <input
+                class="t"
+                type="text"
+                name="text"
+                id="name"
+                placeholder="Seu nome"
+              />
+            </div>
+          </div>
+
+          <div class="container-wrapper">
+            <div class="container">
+              <img class="imgperson" src="./img/at.svg" alt="" />
+              <input
+                class="t"
+                type="email"
+                name="email"
+                id="email"
+                placeholder="Email"
+              />
+            </div>
+          </div>
+
+          <div class="input-feedback">
+            <input
+              type="text"
+              name="feedback"
+              id="feedback"
+              placeholder="Digite sua mensagem aqui..."
+            />
+          </div>
+
+          <div class="input-button">
+            <input id="bot" type="button" value="Enviar mensagem" />
+          </div>
+        </div>
+      </aside>
+      <footer>
+        <h2 class="foot">© 2023 - Rocketseat Explorer</h2>
+      </footer>
+    </div>
+  </body>
+</html>

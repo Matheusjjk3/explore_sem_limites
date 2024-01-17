@@ -1,0 +1,202 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-family: "Mulish";
+  font-size: 62.5%;
+
+  --background-color1: #f9f4fb;
+  --background-color2: #312d64;
+  --color01: #b52184;
+  --color02: #312d64;
+  --color-card: #fff;
+}
+
+.page {
+  background-color: var(--background-color1);
+}
+
+header {
+  background-color: var(--background-color1);
+  text-align: center;
+}
+
+header #imgface {
+  max-width: 100%;
+  margin-block: 3.2rem;
+  margin-top: -3.2rem;
+  margin-bottom: 1.7rem;
+}
+
+header .title {
+  font-size: 3.2rem;
+  font-weight: 900;
+  color: var(--color01);
+  margin-bottom: 0.5rem;
+}
+
+header .sub {
+  font-size: 2rem;
+  font-weight: 600;
+  color: var(--color02);
+  margin-bottom: 3.5rem;
+}
+
+header .arrow {
+  max-width: 6rem;
+  margin-bottom: 9.3rem;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  gap: 5rem;
+  background: linear-gradient(96deg, #343193 0%, #302c63 99.68%);
+}
+
+main .card {
+  max-width: 100%;
+  width: 36rem;
+  padding: 2.6rem;
+  margin: auto;
+
+  background-color: var(--color-card);
+
+  border-radius: 2rem;
+}
+
+main .card .lua {
+  max-width: 8rem;
+  margin-bottom: 3.2rem;
+}
+
+main .card .topics {
+  font-size: 3rem;
+  font-weight: 900;
+  color: var(--color01);
+  margin-bottom: 2rem;
+}
+
+main .card .text {
+  font-size: 1.6rem;
+  font-weight: 600;
+
+  padding: 0 2.6rem 0 0;
+  max-width: 26.5rem;
+  color: var(--color02);
+}
+
+main #cardstart {
+  margin-top: 5rem;
+}
+
+main #cardend {
+  margin-bottom: 5rem;
+}
+
+aside {
+  background-color: var(--background-color1);
+}
+aside .bloco {
+  width: 36rem;
+
+  margin: auto;
+}
+
+aside .titleform {
+  font-size: 3.2rem;
+  font-weight: 900;
+  margin-top: 7.8rem;
+  margin-bottom: 4.3rem;
+  color: var(--color01);
+}
+
+aside .container-wrapper {
+  display: flex;
+  align-items: center;
+  border: 1.5px solid var(--color02);
+  width: 35rem;
+  margin: auto;
+  height: 5rem;
+  border-radius: 1.6rem;
+  padding: 1.4rem;
+  margin-bottom: 2.4rem;
+}
+
+aside .container {
+  height: 2.4rem;
+  display: flex;
+  gap: 1.2rem;
+}
+
+aside .container input {
+  margin-top: -1.2rem;
+  width: 30rem;
+  height: 5rem;
+  border: none;
+  background-color: transparent;
+  font-family: "Mulish";
+}
+
+aside .t::placeholder {
+  font-size: 1.6rem;
+  font-weight: 600;
+  color: var(--color02);
+}
+
+aside .input-feedback {
+  display: flex;
+}
+
+aside .input-feedback input {
+  width: 35rem;
+  height: 9.8rem;
+  padding: 1.4rem;
+  margin: auto;
+  margin-bottom: 2.4rem;
+
+  border-radius: 1.6rem;
+  background-color: transparent;
+  border: 1.5px solid var(--color02);
+}
+
+aside .input-feedback input::placeholder {
+  font-size: 1.6rem;
+  font-weight: 600;
+  color: var(--color02);
+}
+
+aside .input-button {
+  display: flex;
+  margin: auto;
+  width: 35rem;
+  height: 4.5rem;
+  margin-bottom: 6.5rem;
+}
+
+aside #bot {
+  width: 15rem;
+  height: 4.5rem;
+
+  background: linear-gradient(96deg, #343193 0%, #302c63 99.68%);
+  border: none;
+  border-radius: 1.6rem;
+  color: white;
+  font-size: 1.4rem;
+  font-weight: 700;
+}
+
+footer {
+  background: linear-gradient(96deg, #343193 0%, #302c63 99.68%);
+  height: 7.8rem;
+  display: flex;
+}
+
+footer h2 {
+  font-size: 2rem;
+  margin: auto;
+  color: white;
+}

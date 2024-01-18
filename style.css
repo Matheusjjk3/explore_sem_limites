@@ -257,6 +257,14 @@ footer h2 {
     justify-content: center;
   }
 
+  main .reg .card .topics {
+    font-size: 3.5rem;
+  }
+
+  main .reg .card .text {
+    font-size: 1.9rem;
+  }
+
   main .card {
     margin: 6.4rem 0 6.4rem;
   }
@@ -274,6 +282,19 @@ footer h2 {
     gap: 35rem;
   }
 
+  aside .form .bloco .titleform {
+    font-size: 4.2rem;
+  }
+
+  aside .container-wrapper {
+    width: 60rem;
+    margin-left: 27.5rem;
+  }
+
+  aside .input-feedback input {
+    width: 60rem;
+    margin-left: 27.5rem;
+  }
   aside .form {
     width: 91rem;
   }

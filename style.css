@@ -190,6 +190,11 @@ aside #bot {
   cursor: pointer;
 }
 
+aside #imgback {
+  visibility: hidden;
+  max-width: 0;
+}
+
 footer {
   background: linear-gradient(96deg, #343193 0%, #302c63 99.68%);
   height: 7.8rem;
@@ -295,12 +300,10 @@ footer h2 {
     width: 91rem;
   }
 
-  aside .back {
-    width: 64.4rem;
-    height: 61rem;
-  }
-
   aside .back #imgback {
+    visibility: visible;
+    margin-left: 22rem;
+    max-width: 64.4rem;
     height: 61rem;
   }
 }

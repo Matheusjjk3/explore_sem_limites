@@ -91,9 +91,11 @@ main .card .text {
 
 main #cardstart {
   margin-top: 5rem;
+  margin-bottom: 5rem;
 }
 
 main #cardend {
+  margin-top: 5rem;
   margin-bottom: 5rem;
 }
 
@@ -198,4 +200,90 @@ footer h2 {
   font-size: 2rem;
   margin: auto;
   color: white;
+}
+
+@media (min-width: 600px) {
+  header {
+    max-width: max-content;
+    height: 83rem;
+    display: flex;
+    gap: 2.8rem;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto;
+  }
+
+  header .txts {
+    width: 60rem;
+    text-align: left;
+    margin-top: 35rem;
+    margin-bottom: 18rem;
+  }
+
+  header .separation {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+  }
+
+  header .separation h1 {
+    font-size: 6rem;
+  }
+  header .separation p {
+    font-size: 3.2rem;
+  }
+
+  header .arrow {
+    max-width: 6rem;
+  }
+
+  header #imgface {
+    max-width: 72rem;
+    margin-top: -8rem;
+  }
+
+  main {
+    flex-direction: row;
+
+    justify-content: center;
+  }
+
+  main .reg {
+    display: flex;
+    width: 135rem;
+    gap: 13.4rem;
+    justify-content: center;
+  }
+
+  main .card {
+    margin: 6.4rem 0 6.4rem;
+  }
+
+  main #cardstart {
+    margin-top: 6.4rem;
+  }
+
+  main #cardend {
+    margin-bottom: 6.4rem;
+  }
+
+  aside {
+    display: flex;
+    gap: 35rem;
+  }
+
+  aside .form {
+    width: 91rem;
+  }
+
+  aside .back {
+    width: 64.4rem;
+    height: 61rem;
+  }
+
+  aside .back #imgback {
+    height: 61rem;
+  }
 }

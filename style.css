@@ -266,15 +266,11 @@ footer h2 {
   }
 
   main .card {
-    margin: 6.4rem 0 6.4rem;
-  }
-
-  main #cardstart {
-    margin-top: 6.4rem;
+    margin: 5rem 0 5rem;
   }
 
   main #cardend {
-    margin-bottom: 6.4rem;
+    margin-bottom: 5rem;
   }
 
   aside {
